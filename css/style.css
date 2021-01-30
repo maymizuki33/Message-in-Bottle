@@ -1,0 +1,303 @@
+body{
+	/*background-color: pink;*/
+	color: #ffffff;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.container{
+	/*background-color: #ffffff;*/
+	max-width: 60%;
+}
+
+.row{
+	/*outline: 1px solid;*/
+	/*background-color: lightblue;*/
+	padding: 1%;
+}
+.bodyRow{
+	margin-top: 20%;
+}
+.col{
+	/*background-color: orange;*/
+}
+
+.col-center{
+	text-align: center;
+}
+.col-right{
+	text-align: right;
+}
+.col-left{
+	text-align: left;
+}
+
+.vertical-center{
+	padding-top: 10%;
+}
+
+a{
+	font-size: 1em;
+	color: #ffffff;
+	text-decoration-line: none;
+	transition: 0.3s ease;
+	font-family: p22-stanyan, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+a:hover{
+	color: orange;
+	text-decoration-line: none;
+}
+
+a.navi1{
+	margin-left: 1em;
+}
+a.navi2{
+	margin: 0px 0.6em;
+}
+
+.deskNav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: right;
+	z-index: 20;
+	background-color: #000000;
+}
+.navRow{
+	padding: 1% 20% 1% 0px;
+}
+.logoCircle{
+	background-color: #000000;
+	border-radius: 50%;
+	width: 10%;
+	height: auto;
+	position: fixed;
+	top: 0px;
+	left: 10%;
+	z-index: 21;
+}
+
+.topRow{
+	margin-top: 30%;
+}
+
+.imgSizer{
+	width: 100%; 
+	height: auto;
+}
+.calendarImg{
+	width: 100%;
+	height: auto;
+}
+.threeIcons{
+	width: 20%;
+	height: auto;
+	margin-bottom: 2%;
+}
+.footerRow{
+	margin-top: 40%;
+}
+.footerCol{
+	text-align: center;
+	margin: 0.5% auto;
+}
+
+.form-control{
+	margin-bottom: 1em;
+	opacity: 0.7;
+}
+
+.downloadLink{
+	padding: 1em;
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.deskShow{
+    display: inline-block;
+}
+/*.tabletShow{
+    display: none;
+}*/
+.mobileShow{
+    display: none;
+}
+
+h1{
+	font-family: p22-stanyan, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h2{
+	font-family: p22-stanyan, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h4{
+	font-family: p22-stanyan, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h5{
+	font-family: p22-stanyan, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #ffffff;
+}
+h5.modal-title{
+	color: #000000;
+}
+p.letterContent{
+	color: #949494;
+}
+.btn-outline-secondary{
+	border-color: rgba(255, 255, 255, 0);
+}
+.btn-outline-dark{
+	border-color: rgba(255, 255, 255, 0);
+}
+.btn-outline-light{
+	border-color: rgba(255, 255, 255, 0);
+}
+.card{
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+}
+
+.musicClip{
+	margin: 10% 0%;
+	position: relative;
+    padding-bottom: 56.25%; /*aspect 16:9*/
+    height: 0;
+    overflow: hidden;
+}
+.musicClip iframe{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.googlemap{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.googlemap iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	border-radius: 2%;
+	opacity: 0.8;
+}
+
+.calendarImg{
+	opacity: 1;
+	/*border-radius: 0.25rem;*/
+}
+.calendar{
+	opacity: 0.9;
+	border-radius: 2%;
+}
+.calendar-modal-content{
+	opacity: 0.9;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+	.vertical-center{
+		padding-top: 5%;
+	}
+
+	p{
+		font-size: 1em;
+	}
+	.homeThreeImage1{
+		width: 40%;
+		height: auto;
+		padding-top: 5%;
+	}
+	.homeThreeImage2{
+		width: 60%;
+		height: auto;
+		padding-top: 10%;
+	}
+}
+
+
+@media only screen and (max-width: 576px){  
+	body{
+		/*background-color: orange;*/
+	}
+	.container{
+		max-width: 90%;
+		padding-bottom: 20%;
+	} 
+	.logoCircleMobile{
+		border-radius: 50%;
+		width: 40%;
+		height: auto;
+		background-color: #000000;
+	}
+	.mobileLogo{
+		width: 100%;
+		text-align: center;
+		margin: 20% auto 5% auto;
+	}
+	.mobileNav{
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width: 100%;
+		z-index: 22;
+		background-color: #000000;
+	}
+	.navCol{
+		text-align: center;
+	}
+
+	.navRow{
+		padding: 3% 0px 3% 0px;
+	}
+
+	.deskShow{
+    display: none;
+	}
+	/*.tabletShow{
+	    display: none;
+	}*/
+	.mobileShow{
+	    display: inline-block;
+	}
+
+	a{
+		font-size: 1.5em;
+		font-weight: 700;
+	}
+	.homeThreeImage1{
+		width: 40%;
+		height: auto;
+		padding-top: 5%;
+	}
+	.homeThreeImage2{
+		width: 60%;
+		height: auto;
+		padding-top: 10%;
+	}
+	
+} 
