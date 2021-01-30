@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.typekit.net/ulf7kmq.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <style>
+      body{
+        background-image: url(image/back2.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+
+    <link rel="icon" href="image/favicon.png" type="image/png" sizes="16x16"> 
+
+    <title>Message in Bottle - Message</title>
+  </head>
+
+  <body>
+    <body>
+    <div class="container">
+
+      <a href="index.html"><img src="image/logo220.svg" class="logoCircle deskShow"></a>
+
+      <div class="row mobileShow mobileLogo">
+        <div class="col">
+          <img src="image/logo220.svg" class="logoCircleMobile">
+        </div>
+      </div>
+      
+      <nav class="deskNav deskShow">
+        <div class="row navRow">
+          <div class="col navCol">
+            <a href="index.html" class="navi1">home</a>
+            <a href="message.html" class="navi1">message</a>
+            <a href="sound.html" class="navi1">sound</a>
+            <a href="diary.html" class="navi1">diary</a>   
+          </div>
+        </div>
+      </nav>
+
+      <nav class="mobileNav mobileShow">
+        <div class="row navRow">
+          <div class="col navCol">
+            <a href="index.html" class="navi2">home</a>
+            <a href="message.html" class="navi2">message</a>
+            <a href="sound.html" class="navi2">sound</a>
+            <a href="diary.html" class="navi2">diary</a>   
+          </div>
+        </div>
+      </nav>
+
+      <div class="row topRow">
+        <div class="col col-center">
+          <img src="image/letterinbottle.PNG" width=50% height=auto>
+        </div>
+        <div class="col col-center vertical-center">
+          <h1>Message</h1>
+          <br>
+          <br>
+          <p>
+            You go to a shore.<br>
+            Now you are going to...
+          </p>
+        </div>
+      </div>
+
+      <div class="row bodyRow">
+        <div class="col col-center">
+          <img src="image/footprint_w1.PNG" width=17% height=auto>
+        </div>
+      </div>
+
+      <div class="row bodyRow">
+        <div class="col col-6 col-left">
+          <a href="#makeMessage">
+            <img src="image/makemessage.svg" width=90% heignt=auto>
+          </a>
+        </div>
+        <div class="col col-6 col-right">
+          <a href="#receive">
+            <img src="image/receive.svg" width=90% heignt=auto>
+          </a>
+        </div>
+      </div>
+
+      <div class="row bodyRow" id="makeMessage">
+        <div class="col col-12">
+          <h2>write a letter</h2>
+        </div>
+        <div class="col col-center">
+          <form>
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModalCenter">
+              <h5>send out</h5>
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">choose your bottle</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="row">
+
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option1"><img src="image/bottle1.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option2"><img src="image/bottle2.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option3"><img src="image/bottle3.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option4"><img src="image/bottle4.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option5"><img src="image/bottle5.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col col-4">
+                          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-outline-secondary">
+                              <input type="radio" name="options" id="option6"><img src="image/bottle6.PNG" width=50px height=auto>
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-dark" data-dismiss="modal"><h5>through into the ocean</h5></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- modal end here -->
+          </form>
+        </div>
+      </div>
+
+      <div class="row bodyRow">
+        <div class="col col-12 col-center">
+          <p>
+            <button type="button" class="btn btn-outline-dark" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+              <img src="image/predictlocation.svg">
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <!-- contets here -->
+              <p>
+                <p>your bottle is now in...</p>
+                <div class="googlemap">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30187486.474785652!2d-163.13837950565508!3d22.541826057346118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76ed042c30f318eb%3A0x8eff14a070876cbc!2sPacific%20Ocean!5e0!3m2!1sen!2sus!4v1589176306562!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="row bodyRow" id="receive">
+        <div class="col col-12">
+          <h2>pick a bottle</h2>
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+        <div class="col col-3">
+          <!-- 8 bottle choice-->
+          <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#eightbottle">
+            <img src="image/letterinbottle.PNG" width=100% height=auto>
+          </button>
+          <!-- modal content -->
+          <div class="modal fade" id="eightbottle" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">You found a letter in a bottle</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p class="letterContent">Hello, are you listen to me</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal"><h5>put away</h5></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal end here -->
+        </div>
+      </div>
+
+      <div class="row footerRow">
+        <div class="col col-12 col-md-4 footerCol">
+          <a href="index.html"><img src="image/twitter.svg" width=16px height=auto></a>
+          <a href="index.html"><img src="image/facebook.svg" width=16px height=auto></a>
+        </div>
+        <div class="col col-12 col-md-4 footerCol">
+          <p>
+            <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+              contact
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <!-- contets here -->
+              <form>
+                <div class="form-group col-left">
+                  <label for="exampleInputEmail1">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email address">
+                </div>
+                <div class="form-group col-left">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4 footerCol">
+          <p>
+            <button type="button" class="btn btn-outline-light" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+              download
+            </button>
+          </p>
+          <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+              <!-- contets here -->
+              <p>
+                <a class="downloadLink" href="image/letterpad.pdf" download="sample.pdf"><i>letter pad: map</i></a>
+                <a class="downloadLink" href="image/letterpad2.pdf" download="sample.pdf"><i>letter pad: ocean</i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 footerCol">
+          <h6>&copy; Message in Bottle. all right reseved.</h6>
+        </div>
+      </div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
